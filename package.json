@@ -1,0 +1,22 @@
+{
+  "name": "pandocserver",
+  "version": "1.0.0",
+  "description": "server for test pandoc converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"node index.js\" \"cd client && npm start\""
+  },
+  "author": "pamento",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.16",
+    "node-pandoc": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "keywords": []
+}
