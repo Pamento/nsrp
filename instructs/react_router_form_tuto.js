@@ -63,7 +63,7 @@ export default class App extends Component {
   };
 
 
-  // our delete method that uses our backend api 
+  // our delete method that uses our backend api
   // to remove existing database information
   deleteFromDB = idTodelete => {
     let objIdToDelete = null;

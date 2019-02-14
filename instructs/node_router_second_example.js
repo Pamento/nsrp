@@ -1,4 +1,6 @@
 /**
+ * basic app nodejs
+ * https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2
  * example about :
  * "Create a new file that will serve as our main code for the back end and name it server.js.
  * Then, type the following into it. This back end code is pretty blunt and basic,
@@ -9,9 +11,16 @@
  * from :
  * https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274
  * I don't have use'it in this project. It is just like other reference point and to comparyson, to multiplay knowlege.
+ * in more :
+ * https://medium.freecodecamp.org/how-to-write-a-production-ready-node-and-express-app-f214f0b17d8c
+ * NODE_ENV=production
+ * https://www.dynatrace.com/news/blog/the-drastic-effects-of-omitting-node-env-in-your-express-js-applications/
+ * upload file :
+ * https://medium.com/ecmastack/uploading-files-with-react-js-and-node-js-e7e6b707f4ef
  * here :
  * other example
  * https://medium.com/@maison.moa/create-a-simple-weather-app-using-node-js-express-and-react-54105094647a
+ * https://gist.github.com/maisonm
  */
 
 const mongoose = require("mongoose");

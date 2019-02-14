@@ -6,6 +6,8 @@ let db             = require('./config/db');
 const port = 8000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
+// db.once("open", () => console.log("connected to the database"));
+// db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
 MongoClient.connect(db.url, (err, database) => {
   if (err) return console.log(err);

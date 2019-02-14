@@ -4,7 +4,7 @@
   "description": "server for test pandoc converter",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"node index.js\" \"cd client && npm start\""
+    "start": "concurrently \"nodemon index.js\" \"cd client && npm start\""
   },
   "author": "pamento",
   "license": "ISC",
